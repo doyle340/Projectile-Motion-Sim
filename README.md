@@ -22,3 +22,9 @@ The first simulator in a series of education-focused Physics Sims. Simulates the
 *  Relation between horizontal range and maximum height
 *  Maximum distance of projectile
 *  Angle (theta)  required to hit coordinate (x,y)
+
+
+
+So.... Think about where to store information about the projectile.
+Is it smart to store the acceleration,velocity, position, with an object?
+My thought is yes. The spherical object class can take a tuple of forces acting on it
